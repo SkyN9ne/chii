@@ -62,9 +62,9 @@ Use this script to inject the target code into your webpage.
 <script src="//host-machine-ip:8080/target.js"></script>
 ```
 
-Then browse to localhost:8080 to start debugging your page.
+Then browse to http://localhost:8080 to start debugging your page.
 
-It's also possible to embed devtools in the same page using iframe. All you have to do is setting an extra embedded attribute on the script element.
+It's also possible to embed DevTools in the same page using iFrame. All you have to do is setting an extra embedded attribute on the script element.
 
 ```html
 <script src="//host-machine-ip:8080/target.js" embedded="true"></script>
@@ -75,7 +75,7 @@ Visit [Embedded Iframe](https://chii.liriliri.io/test/demo.html?embedded=true) o
 ## Related Projects
 
 * [whistle.chii](https://github.com/liriliri/whistle.chii): Whistle Chii plugin.
-* [chobitsu](https://github.com/liriliri/chobitsu): Chrome devtools protocol JavaScript implementation.
+* [chobitsu](https://github.com/liriliri/chobitsu): Chrome DevTools protocol JavaScript implementation.
 * [vivy](https://github.com/liriliri/vivy-docs): Banner image generation.
 
 ## Contribution
